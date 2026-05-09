@@ -9,6 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: dsa-roadmap
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
